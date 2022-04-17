@@ -6,3 +6,18 @@
 
 ---
 
+- Verificar status do MongoDB service:
+  `sudo service mongod status`
+
+- Iniciar o MongoDB service:
+  `sudo service mongod start`
+
+- Parar o MongoDB service:
+  `sudo service mongod stop`
+
+- Reiniar o MongoDB service:
+  `sudo service mongod restart`
+
+- Habilitar ou desabilitar MongoDB service ao inicializar o sistema(Linux):
+  `sudo systemclt enable mongod.service`
+  `sudo systemclt disable mongod.service`
