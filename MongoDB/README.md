@@ -23,3 +23,10 @@
 - Habilitar ou desabilitar MongoDB service ao inicializar o sistema(Linux):
   `sudo systemclt enable mongod.service`
   `sudo systemclt disable mongod.service`
+
+### Mongo via terminal com MongoDB Shell
+
+MongoDB Shell é uma interface de linha de comando (CLI - command line interface). Em seu terminal, execute o comando: `mongo`. Por padrão, a instância estará rodando na porta `27017`.
+
+Caso queira executá-la em outra porta, basta passar o parâmetro `--port`:
+- Exemplo: `mongo --port 3001`.
